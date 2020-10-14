@@ -1,0 +1,36 @@
+{
+  "name": "config-project-wcs",
+  "version": "1.0.0",
+  "description": "grab your projects 2 and 3 config files !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "config-project-wcs": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karnak19/config-project-wcs.git"
+  },
+  "keywords": [
+    "caprover",
+    "config",
+    "wcs",
+    "cli"
+  ],
+  "author": "Basile V. <basile64.v@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karnak19/config-project-wcs/issues"
+  },
+  "homepage": "https://github.com/Karnak19/config-project-wcs#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "mkdirp": "^1.0.4",
+    "ora": "^5.1.0",
+    "prompt-checkbox": "^2.2.0"
+  }
+}
